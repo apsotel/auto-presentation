@@ -1,0 +1,29 @@
+{
+  "title": "Auto Presentation Demo",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "scenes": [
+    {
+      "id": "scene-001",
+      "title": "自动演讲系统",
+      "narration": "这是第一段示例旁白。后续将由本地 TTS 使用你授权的声音参考生成音频。",
+      "durationSeconds": 8,
+      "visual": "hero"
+    },
+    {
+      "id": "scene-002",
+      "title": "数据驱动动画",
+      "narration": "每一段旁白、画面和动画都由配置文件驱动，这样更换项目资料时不需要重写整套程序。",
+      "durationSeconds": 10,
+      "visual": "diagram"
+    },
+    {
+      "id": "scene-003",
+      "title": "音画自动同步",
+      "narration": "当接入 TTS 后，程序将以实际音频长度为准，自动安排场景时间和转场。",
+      "durationSeconds": 9,
+      "visual": "timeline"
+    }
+  ]
+}
