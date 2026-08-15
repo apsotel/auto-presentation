@@ -1,0 +1,12 @@
+node_modules/
+output/
+.env
+.env.*
+public/audio/*.wav
+public/audio/*.mp3
+private/
+models/
+*.ckpt
+*.safetensors
+*.pth
+*.pt
