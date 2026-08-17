@@ -37,20 +37,12 @@
 
 ## 安装
 
-将仓库中的 `skills/auto-presentation` 目录复制到 Codex 的个人技能目录：
+现已提供覆盖多 Agent 平台的完整安装说明：
 
-```text
-~/.codex/skills/auto-presentation
-```
+- [中文安装指南](installation.zh-CN.md)
+- [English installation guide](installation.en.md)
 
-Windows 示例：
-
-```powershell
-Copy-Item -Recurse .\skills\auto-presentation $env:USERPROFILE\.codex\skills\auto-presentation
-```
-
-重新加载 Codex 后即可使用。
-
+支持 Codex、Claude Code、Gemini CLI、GitHub Copilot，以及采用 `.agents/skills` 通用目录的兼容平台。指南同时说明个人安装、项目级安装、共享工作区、容器与隔离 Agent 环境。
 ## 使用
 
 ```text
