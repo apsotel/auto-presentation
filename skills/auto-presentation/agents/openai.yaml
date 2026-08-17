@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Presentation"
+  short_description: "Create animated presentations from source materials"
+  default_prompt: "Use $auto-presentation to turn my materials and authorized voice references into a reviewable animated presentation and final MP4."
