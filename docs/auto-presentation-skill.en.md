@@ -38,20 +38,12 @@ It is not a simple slide generator. It defines an end-to-end editorial and audio
 
 ## Installation
 
-Copy `skills/auto-presentation` from this repository into the personal Codex skills directory:
+Complete multi-agent installation instructions are now available:
 
-```text
-~/.codex/skills/auto-presentation
-```
+- [English installation guide](installation.en.md)
+- [中文安装指南](installation.zh-CN.md)
 
-Windows example:
-
-```powershell
-Copy-Item -Recurse .\skills\auto-presentation $env:USERPROFILE\.codex\skills\auto-presentation
-```
-
-Reload Codex after installation.
-
+The guide covers Codex, Claude Code, Gemini CLI, GitHub Copilot, compatible `.agents/skills` platforms, personal and project scopes, shared workspaces, containers, and isolated agent environments.
 ## Usage
 
 ```text
